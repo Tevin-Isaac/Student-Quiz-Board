@@ -1,0 +1,83 @@
+h1 {
+    color: inherit;
+    font-size: 50px;
+    font-family: ui-rounded;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    font-style: oblique;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    float: left;
+}
+
+.watermark {
+    opacity: 0.5;
+    bottom: 0;
+    right: 0;
+}
+
+input.quizSubmit[type="submit"] {
+    color: #ffffff;
+    background-color: #c30b0a;
+    font-weight:bold;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    text-transform: uppercase;
+    height: 35px;
+    width: 85px;
+    border: 1px solid #5E5E5E;
+    border-radius: 5px;
+}
+
+body {
+    background-color: purple;
+    background-image:url(https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg)
+}
+
+.container {
+    width: 60%;
+    background: purple;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
+    border-radius: 70px;
+}
+
+.question {
+    color: black;
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.well {
+    background-color: yellow;
+    color: black;
+}
+
+#results {
+    width: 80%;
+    background: pink;
+    margin: 200px auto;
+    overflow: auto;
+    padding: 25px;
+    border-radius: 70px;
+    color: green
+}
+
+#userScore {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: white
+}
